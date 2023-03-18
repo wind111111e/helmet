@@ -13,8 +13,8 @@
 #train: D:/pycharm/HEMET/yolov5-6.1/VOCdevkit/images/train
 #val: D:/pycharm/HEMET/yolov5-6.1/VOCdevkit/images/val
 
-train: C:/Users/Administrator/Desktop/yolov5-helmet/VOCdevkit/images/train
-val: C:/Users/Administrator/Desktop/yolov5-helmet/VOCdevkit/images/val
+train: ./VOCdevkit/images/train
+val: ./VOCdevkit/images/val
 
 
 #C:\Users\Administrator\Desktop\yolov5-helmet
