@@ -22,4 +22,4 @@ val: ./VOCdevkit/images/val
 
 # Classes
 nc: 2  # number of classes
-names: ['With Helmet', 'Without Helmet']  # class names
+names: ['with helmet', 'without helmet']  # class names

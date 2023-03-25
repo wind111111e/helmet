@@ -6,7 +6,7 @@ from os.path import join
 import random
 from shutil import copyfile
 
-classes = ["With Helmet", "Without Helmet"]
+classes = ["with helmet", "without helmet"]
 # classes=["ball"]
 
 TRAIN_RATIO = 80
