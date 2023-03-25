@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>BikesHelmets451.png</filename>
+	<path>C:\Users\Administrator\Desktop\Helmet\JPEGImages\BikesHelmets451.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>555</width>
+		<height>370</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>with helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>212</xmin>
+			<ymin>27</ymin>
+			<xmax>268</xmax>
+			<ymax>87</ymax>
+		</bndbox>
+	</object>
+</annotation>
