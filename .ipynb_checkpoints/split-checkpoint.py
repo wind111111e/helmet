@@ -117,6 +117,7 @@ test_file = open(os.path.join(wd, "yolov5_val.txt"), 'a',encoding='UTF-8')
 list_imgs = os.listdir(image_dir)  # list image files
 prob = random.randint(1, 100)
 print("Probability: %d" % prob)
+print(len(list_imgs))
 for i in range(0, len(list_imgs)):
     path = os.path.join(image_dir, list_imgs[i])
     if os.path.isfile(path):

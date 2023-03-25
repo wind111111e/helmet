@@ -38,8 +38,8 @@ def convert(size, box):
 
 
 def convert_annotation(image_id):
-    in_file = open('VOCdevkit/zhushi/%s.xml' % image_id,encoding='UTF-8')
-    out_file = open('VOCdevkit/images/%s.txt' % image_id, 'w',encoding='UTF-8' )
+    in_file = open('VOCdevkit/VOC2007/Annotations/%s.xml' % image_id,encoding='UTF-8')
+    out_file = open('VOCdevkit/VOC2007/YOLOLabels/%s.txt' % image_id, 'w',encoding='UTF-8' )
     tree = ET.parse(in_file)
     root = tree.getroot()
     size = root.find('size')
@@ -117,6 +117,7 @@ test_file = open(os.path.join(wd, "yolov5_val.txt"), 'a',encoding='UTF-8')
 list_imgs = os.listdir(image_dir)  # list image files
 prob = random.randint(1, 100)
 print("Probability: %d" % prob)
+print(len(list_imgs))
 for i in range(0, len(list_imgs)):
     path = os.path.join(image_dir, list_imgs[i])
     if os.path.isfile(path):
